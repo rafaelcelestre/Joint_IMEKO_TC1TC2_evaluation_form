@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Engineering Calculation Paper
+% LaTeX Template
+% Version 1.0 (20/1/13)
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% Original author:
+% Dmitry Volynkin (dim_voly@yahoo.com.au)
+% Adapted by:
+% Rafael Celestre
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  - DO NOT ALTER
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper]{article} % Use A4 paper with a 12pt font size - different paper sizes will require manual recalculation of page margins and border positions
+
+\usepackage{marginnote} % Required for margin notes
+\usepackage{wallpaper} % Required to set each page to have a background
+\usepackage{lastpage} % Required to print the total number of pages
+\usepackage[left=1.3cm,right=4.6cm,top=1.8cm,bottom=4.0cm,marginparwidth=3.4cm]{geometry} % Adjust page margins
+\usepackage{amsmath} % Required for equation customization
+\usepackage{amssymb} % Required to include mathematical symbols
+\usepackage{xcolor} % Required to specify colors by name
+
+\usepackage{fancyhdr} % Required to customize headers
+\setlength{\headheight}{80pt} % Increase the size of the header to accommodate meta-information
+\pagestyle{fancy}\fancyhf{} % Use the custom header specified below
+\renewcommand{\headrulewidth}{0pt} % Remove the default horizontal rule under the header
+
+\setlength{\parindent}{0cm} % Remove paragraph indentation
+\newcommand{\tab}{\hspace*{2em}} % Defines a new command for some horizontal space
+
+\newcommand\BackgroundStructure{ % Command to specify the background of each page
+\setlength{\unitlength}{1mm} % Set the unit length to millimeters
+
+\setlength\fboxsep{0mm} % Adjusts the distance between the frameboxes and the borderlines
+\setlength\fboxrule{0.5mm} % Increase the thickness of the border line
+\put(10, 10){\fcolorbox{black}{blue!1}{\framebox(155,247){}}} % Main content box
+\put(165, 10){\fcolorbox{black}{blue!3}{\framebox(37,247){}}} % Margin box
+\put(10, 262){\fcolorbox{black}{white!10}{\framebox(192, 25){}}} % Header box
+\put(137, 263){\includegraphics[height=23mm,keepaspectratio]{imeko_logo.png}} % Logo box - maximum height/width: 
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER INFORMATION - complete with your own info!!!
+%----------------------------------------------------------------------------------------
+\fancyhead[L]{
+\textbf{Abstract evaluation form} \quad\quad\quad \textbf{page} \thepage/\pageref{LastPage}\\
+\textbf{Abstract number}: \#69                          \\ %don't remove line breakers
+\textbf{First author's name}: John Doe                  \\ %don't remove line breakers
+\textbf{Reviewer}: reviewer's number
+}
+%----------------------------------------------------------------------------------------
+\begin{document}
+\AddToShipoutPicture{\BackgroundStructure}
+%----------------------------------------------------------------------------------------
+%	Evaluation form
+%----------------------------------------------------------------------------------------
+
+%================= General information on the paper
+\section{Paper title} 
+Here a very long paper title that you will copy and paste from the abstract you are evaluating.
+
+\subsection*{General information}
+\marginnote{\# pages}   % insert here the number of pages
+\textbf{Number of pages}\\
+
+\marginnote{\# references} % insert here the number of refences
+\textbf{Number of references}
+
+%================= Detailed evaluation
+\section{Evaluation criteria}
+
+%================= Final decision
+\section{Paper evaluation}
+
+\subsection*{Reason for refusal (if applicable)}
+
+%================= Space reserved for inserting some comments to the authors
+\section{General comments and suggestions}
+
+\section{Reviewer's conflicts of interest}
+% list of affiliations from the reviewer 
+
+\subsection*{Statement}
+\textit{Hereby I state that submitted review is done objectively and indifferently and is solely based on professional, scientific and ethical standards.}
+
+\raggedleft The reviewer.
+%----------------------------------------------------------------------------------------
+
+\end{document}
