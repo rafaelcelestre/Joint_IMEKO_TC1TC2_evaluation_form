@@ -7,7 +7,7 @@ here (this is particularly useful for Windows users). This is a quick and easy s
 installed, you can open a terminal and type:
 
 ```bash
-$ git clone https://github.com/rafaelcelestre/Joint_IMEKO_TC1TC2_evaluation_form
+$ git clone https://github.com/rafaelcelestre/evaluation_form
 ```
 
 There you go: you have downloaded the project.
