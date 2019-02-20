@@ -1,4 +1,3 @@
-[Joint TC1-TC2 International Symposium on Photonics and Education in Measurement Science](https://www.imeko-jena.com) 
 LaTex template for submission evaluation.
 
 ### Getting started
